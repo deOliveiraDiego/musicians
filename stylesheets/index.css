@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #F8FAFC;
+  color: #22292F;
+}
+
+header {
+  background-color: #DAE1E7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 0px .7rem;
+}
+
+header img.logo {
+  width: 9rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.conjuntos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+} 
+
+.conjuntos figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conjuntos img {
+  width: 9rem;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+hr {
+  margin: .6em;
+}
+
+section.mais-visitados {
+  display: flex;
+  flex-direction: column;
+}
+
+section h1 {
+  padding-bottom: .5em;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3D4852;
+  padding: 1em;
+}
+
+p {
+  font-size: .9em;
+  margin: 5px;
+  color: #8795A1;
+}
+
+footer hr {
+    border: 0;
+    width: 25%;
+    margin: .5em;               
+    background-color:#222222;
+    height: 1px;
+}
+
+footer section.social-media {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
